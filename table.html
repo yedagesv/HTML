@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Table </title>
+    <link rel="icon" href="developer.png">
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid rgb(228, 129, 195);
+        }
+    </style>
+
+</head>
+<body>
+    <h2> Product List </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th> Product Id </th>
+                <th> Product Name </th>
+                <th> Product Quality </th>
+                <th> Product Quantity </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Wheat </td>
+                <td> Good </td>
+                <td> 100 bags </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Rice </td>
+                <td> Not Good </td>
+                <td> 50 bags </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Sugar </td>
+                <td> Good </td>
+                <td> 200 bags </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h3>Table with rowspan and colspan</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Full Name</th>
+                <th>Graduation</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anil</td>
+                <td>Kanole</td>
+                <td>BE</td>
+                <td rowspan="2">Pune</td>
+            </tr>
+            <tr>
+                <td>Sunil</td>
+                <td>Mote</td>
+                <td>BCA</td>
+
+            </tr>
+            <tr>
+                <td>Anita</td>
+                <td>Bore</td>
+                <td>MCA</td>
+                <td>Banglore</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

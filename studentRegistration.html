@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+    <link rel="icon" href="developer.png">
+</head>
+
+<body>
+    <h2> Student Registration Form </h2>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td> <label> First Name </label> </td>
+                    <td> <input type="text" placeholder="Please enter capital letters" required autofocus
+                            maxlength="15">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label> Last Name </label> </td>
+                    <td> <input type="text" required maxlength="15" placeholder="Please enter capital letters"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Email ID </label> </td>
+                    <td> <input type="email" placeholder="eg.abc@gmail.com" required> </td>
+                </tr>
+                <tr>
+                    <td> <label> Passward </label> </td>
+                    <td> <input type="password" placeholder="use Upper and lower case With Symbol"></td>
+                </tr>
+                <tr>
+                    <td> <label> Mobile No: </label> </td>
+                    <td> <input type="number" placeholder=" Enter 10 digit Number" required> </td>
+                </tr>
+                <tr>
+                    <td> <label> Gender</label> </td>
+                    <td> Male <input type="radio" name="gender" value="male" id="male" required>
+                        Female<input type="radio" name="gender" value="Female" id="Female" required> </td>
+                </tr>
+                <tr>
+
+                    <td> <label> Age </label> </td>
+                    <td> <input type="number" placeholder="eg.25" required maxlength="5"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Date of Birth </label> </td>
+                    <td> <input type="date"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Available in week </label> </td>
+                    <td> <input type="week"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Available in Time </label> </td>
+                    <td> <input type="time"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Profile Photo </label> </td>
+                    <td> <input type="file"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Uplod Documents </label> </td>
+                    <td> <input type="file" multiple> </td>
+                </tr>
+                <tr>
+                    <td> <label> You have Complete Graduaction </label></td>
+                    <td> <input type="radio" name="yes"> <label> Yes </label>
+                        <input type="radio" name="yes"> <label> NO </label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td> <label> Graduaction </label> </td>
+                    <td>
+                        <select>
+                            <option> BE </option>
+                            <option> BSC </option>
+                            <option> MBA </option>
+                        </select>
+                    </td>
+                <tr>
+                    <td> <label> Select Traning </label></td>
+                    <td> <input type="checkbox"> <label> java </label>
+                        <input type="checkbox"> <label> React </label>
+                        <input type="checkbox"> <label> Angular </label>
+                        <input type="checkbox"> <label> Testing (Manual+Automation) </label>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td> <label> State </label> </td>
+                    <td> <input type="text" value="MH" readonly> </td>
+                </tr>
+                <tr>
+                    <td> <label> Country </label> </td>
+                    <td> <input type="text" value="India" disabled> </td>
+                </tr>
+
+                <tr>
+                    <td> <label> Address: </label> </td>
+                    <td> <textarea name="Address" rows="3" placeholder="Pesent Address" cols="21"></textarea> </td>
+                </tr>
+                <tr>
+                    <td> <label> Pincode </label></td>
+                    <td> <input type="text" name="Pincode" maxlength="6"> </td>
+                </tr>
+                <tr>
+
+                    <td> <label> Hobbies </label> </td>
+                    <td> Drawing <input type="checkbox" name="Hobby_drawing" value="drawaing">
+                        Reading <input type="checkbox" name="Hobby_Readimg" value="Reading">
+                        other <input type="checkbox" name="Hobby_other" value="Other"> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit"> </td>
+                    <td> <input type="reset"> </td>
+
+                </tr>
+                <tr>
+                    <td> <button type="submit"> Register </button> </td>
+                    <td> <button type="reset"> Clear </button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
